@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+$font-family-base: 'Playfair Display' , monospace;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.bg-turqueza-me{
+    @extend .bg-dark;
+    background-color: rgb(5, 169, 125);
+    color: white;
+
+}
+
